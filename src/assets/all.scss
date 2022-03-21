@@ -1,0 +1,15 @@
+
+@import "./helpers/CSS-reset.scss"    ;
+
+@import "~bootstrap/scss/functions"; //套用變數的方法
+
+
+@import "./helpers/Cart.scss";
+@import "./helpers/dashboard.scss";
+@import "./helpers/CSS-boostrap.scss";
+
+@import "~bootstrap/scss/bootstrap" ;//引用所有BS的內容 APP在引用這裡的
+
+@import "./helpers/product.scss";
+@import "./helpers/RWD.scss"    ;
+// @import "./helpers/CSS2022.scss";

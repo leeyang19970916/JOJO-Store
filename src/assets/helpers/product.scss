@@ -1,0 +1,304 @@
+.ProductImage {
+  min-width: auto;
+  min-height: 340px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.DetailPosition {
+  position: absolute;
+  bottom: 2%;
+  right: 3.5%;
+}
+
+.CartPosition {
+  position: absolute;
+  bottom: 2%;
+  left: 3.5%;
+}
+
+.shadowHover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.shadowHover:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.iconSize {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.466)
+  // color: #6cacd1e3;
+  // color: #F19F4D;
+}
+
+.iconStatus {
+  opacity: 1;
+  // transition: 0.5s;
+  z-index: 1;
+}
+
+.item-images:hover {
+  .iconStatus {
+    opacity: 1;
+    z-index: 100 !important;
+    color: #343a40;
+  }
+}
+
+.navbarFontSize {
+  // font-size: 18.5px;
+min-width: 120px !important;
+  // font-weight: bold;
+
+}
+
+.listItem {
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 10px;
+  
+}
+body{
+  position: relative;
+}
+
+.border-circle{
+  border-radius: 50%;
+  border:  1px solid black;
+}
+
+.BackgroundImg1{
+
+  min-height:400px;
+  max-height: 400px;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  // background-position: 25% 75%;
+}
+.BackgroundImg2{
+  min-height: 350px;
+  background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.BackgroundIndex{
+  min-height: 600px;
+  background-position: center;
+    background-repeat: no-repeat;
+    // background-size:cover;
+}
+.squarePicture{
+  min-width: 200px;
+  height:400px;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.modalSize{
+
+min-width:1000px;
+// min-height: 600px ;
+}
+.modalClick{
+font-size: 18px;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.modalImgframe{
+  min-width: 350px;
+  position: relative;
+  min-height: 400px;
+  border-radius: 20px;
+}
+.imgSetting{
+  max-height: 100%;  
+  max-width: 100%; 
+  width: auto;
+  height: auto;
+  position: absolute;  
+  top: 0;  
+  bottom: 0;  
+  left: 0;  
+  right: 0;  
+  margin: auto;
+}
+// body{
+// position: relative;
+
+// }
+
+.cartDarkBackground{
+position: absolute;
+top: 0;  
+bottom: 0;  
+left: 0; 
+background: #323536;
+max-width: 450px;
+
+}
+.cartImgPicture{
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+
+
+}
+.textdecoration{
+
+  text-decoration: none;
+}
+// Modal 左邊進場
+// 點別的地方要恢復（先可以不管）
+// 前往結帳btn 先
+// 要能進入頁面
+// 明天主要任務
+// 進入特定product頁面
+.cart-GoToCheck{
+  color: #fff !important;
+  background-color: #232a32;
+  border: 1px solid #888;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 auto;
+  letter-spacing: 1px;
+};
+.productImageFrame{
+  width: 600px;
+  height: 500px;
+      position: relative;
+      border-radius: 20px;
+  };
+  ul li{
+    list-style: none;
+  }
+  a{
+    text-decoration: none !important;
+  }
+  .list-active{
+    color: #f3751c !important;
+    font-weight: bolder !important;
+
+  }
+
+  .modal-backdrop {
+    position:relative ;
+    z-index: 2040 !important;
+}
+
+
+// RWD
+@media screen and (max-width:576px){ 
+// iphone
+#index-Contact{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+  .BackgroundIndex{
+width: 100%;
+
+
+}
+#ThreeCards{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+#BackgroundIndex-title{
+
+display: none !important;
+
+}
+#backgroundImage1{
+
+}
+ }
+ @media screen and (max-width:1025px){ 
+// ipad
+// .BackgroundIndex{
+// background-position:bottom center !important ; 
+  
+//   }
+  #backgroundImage1{
+
+    background-position: top !important;
+    height: 50% !important;
+  }
+
+
+#BackgroundIndex-title{
+
+display: none;
+  }
+#ThreeCards{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  // margin-top: 100px !important;
+}
+ }
+
+ @media screen and (max-width:820PX){ 
+  // iphone
+  #index-Contact{
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+    .BackgroundIndex{
+  width: 100%;
+  
+  
+  }
+  #ThreeCards{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  #BackgroundIndex-title{
+  
+  display: none !important;
+  
+  }
+  #backgroundImage1{
+  
+  }
+   }
+
+ .carousel .carousel-item {
+  height: 400px;
+  @media (max-width: 576px){
+      height: 300px;   
+  }
+//   @media (max-width: 820PX){
+//     height: 300px;   
+// }
+}
+.carousel .carousel-item img {
+  min-height: 400px;
+  max-height: 500px;
+  object-fit: cover;
+  @media (max-width: 576px){
+      min-height: 300px;
+      max-height: 400px;
+      
+  }
+//   @media (max-width: 820PX){
+//     min-height: 300px;
+//     max-height: 400px;
+    
+// }
+}
+.carousel-indicators li{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.lingalleryContainer[data-v-40681078] .lingallery figure {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  text-align: center !important;
+  cursor: pointer;
+  display: table-cell ;
+  vertical-align: middle ;
+}
